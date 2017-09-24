@@ -28,3 +28,6 @@ var TaskSchema = new Schema(
     default: ['pending']
   }
 });
+
+
+module.exports = mongoose.model('Tasks', TaskSchema);
