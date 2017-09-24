@@ -26,3 +26,7 @@ app.listen(port);
 
 console.log('ToDo RESTful API Server initialised on: ' + port);
 
+// middleware that redirects when a wrong route is entered
+app.use(function(req, res) {
+  res.status(404).send({url: req.originalUrl + ' does not exist..'})
+});
