@@ -23,4 +23,5 @@ nodemon server.js
 ```
 4) Open Postman.<br>
 In the search field, navigate to GET and input the following url: http://localhost:9001/tasks - you should see an empty object
-5) Click params button and enter data corresponding to specific keys
+5) Navigate to POST. Click body button and enter some data corresponding to specific keys
+6) If successful, return to GET and see your posts!
