@@ -12,5 +12,11 @@
     "API"
   ],
   "author": "T. Sebi Santos",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "express": "^4.15.4"
+  }
 }
